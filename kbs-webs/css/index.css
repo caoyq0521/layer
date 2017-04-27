@@ -1026,7 +1026,7 @@ ul.range-img>li>span{
     }
     .company-bot-mes>.company-word>span{
         font-size:1rem;
-        line-height:1.7rem;
+        line-height:1.5rem;
     }
     .line-word{
         display:none;
@@ -1065,9 +1065,6 @@ ul.range-img>li>span{
     }
     #company-p, #maintenance, #vehicle-i, #emergency-a{
         height:41.7rem;
-    }
-    .company-p-mes>.top-mes{
-        padding-top: 2rem;
     }
     .maintenance-mes>.top-mes{
         padding-top: 3rem;
@@ -1236,7 +1233,7 @@ ul.range-img>li>span{
     }
     .company-bot-mes>.company-word{
         width:100%;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
     .company-bot-mes>img{
         position: relative;

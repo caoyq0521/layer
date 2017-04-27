@@ -20,7 +20,6 @@ $(function(){
         $(window).resize(function(){
             var cw=document.documentElement.clientWidth;
             var ch=document.documentElement.clientHeight;
-            console.log(ch);
             if(cw<=750){
                 if(cw>ch){
                     cp.style.height=ch+'px';
