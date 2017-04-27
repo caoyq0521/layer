@@ -807,7 +807,7 @@ ul.range-img>li>span{
     .mobile-maintenance-word-mes{
         float:left;
         width:42%;
-        padding:3rem 0.5rem 0 1.4rem;
+        padding:2rem 0.5rem 0 1.4rem;
     }
     .left-btn,.right-btn,.min-maintenance-bot-main-mes{
         display: none;
@@ -826,8 +826,14 @@ ul.range-img>li>span{
     }
     img.mobile-img{
         float:left;
-        width:51%;
+        width:50%;
         margin-left:1.8rem;
+    }
+    .mobile-line-word{
+        font-size: 1rem;
+    }
+    .mobile-line-word>span:nth-child(2){
+        font-size: 0.7rem;
     }
     .company-bot-mes,.vehicle-bot-mes,.vehicles-bot-mes,.emergency-a-bot-mes,.contact-bot-mes{
         padding:0 8px;
