@@ -580,14 +580,14 @@ ul.navigation-menu-mes>li>a{
     /*padding-bottom: 30px;*/
     font-size: 0;
 }
-.vehicles-bot-mes>.contaner>span{
+.vehicles-bot-mes>span{
     font-size: 20px;
     color:#666;
     display:block;
     text-align: left;
     line-height: 36px;
 }
-.vehicles-bot-mes>.contaner>span.vehicle-title{
+.vehicles-bot-mes>span.vehicle-title{
     color:#f86c21;
     font-size: 30px;
     margin-top: 65px;
@@ -846,7 +846,7 @@ ul.range-img>li>span{
         text-align: center;
         margin-right:0;
     }
-    .emergency-a-bot-mes>span,.vehicles-bot-mes>.contaner>span{
+    .emergency-a-bot-mes>span,.vehicles-bot-mes>span{
         text-align: justify;
         height:auto;
         font-size: 0.9rem;
@@ -992,7 +992,7 @@ ul.range-img>li>span{
         margin-left:2rem;
         margin-bottom: 0;
     }
-    .vehicles-bot-mes>.contaner>span.vehicle-title{
+    .vehicles-bot-mes>span.vehicle-title{
         margin-top: 8px;
         padding-bottom: 8px;
         font-size: 1.3rem;
@@ -1245,7 +1245,7 @@ ul.range-img>li>span{
         margin-left: -58.5px;
         margin-top: 0;
     }
-    .vehicles-bot-mes>.contaner>span.vehicle-title{
+    .vehicles-bot-mes>span.vehicle-title{
         margin-top: 9px;
         padding-bottom: 10px;
         font-size: 1.3rem;
