@@ -1,7 +1,7 @@
 $(function(){
     // 横竖屏响应
     var cWidth=document.documentElement.clientWidth;
-    var cHeight=window.outerHeight;
+    var cHeight=document.documentElement.clientHeight;
     var cp=document.getElementById("company-p");
     var mt=document.getElementById("maintenance");
     var vi=document.getElementById("vehicle-i");
@@ -9,8 +9,6 @@ $(function(){
     var co=document.getElementById("contact");
     var sw=document.getElementsByClassName("swiper-container")[0];
     var vb=document.getElementsByClassName("vehicles-bot-mes")[0];
-    var scrollHeightArr=[];
-    var bili=[];
     if(cWidth<=750){
         cp.style.height=cHeight+'px';
         mt.style.height=cHeight+'px';
@@ -22,13 +20,7 @@ $(function(){
         $(window).resize(function(){
             var cw=document.documentElement.clientWidth;
             var ch=document.documentElement.clientHeight;
-            for(var i=0;i<$(".contaner").length;i++){
-                scrollHeightArr.push($(".contaner")[i].scrollHeight);
-            }
-            for(var j=0;j<scrollHeightArr.length;j++){
-                bili.push(scrollHeightArr[j]/ch);
-            }
-            scrollHeightArr=[];
+            console.log(ch);
             if(cw<=750){
                 if(cw>ch){
                     cp.style.height=ch+'px';
@@ -38,12 +30,6 @@ $(function(){
                     co.style.height=ch+'px';
                     vb.style.height=ch+'px';
                     sw.style.height=(ch-50)+'px';
-                    for(var s=0;s<bili.length;s++){
-                        $(".contaner").eq(s).css({
-                            transform:'scaleY('+bili[s]+')',
-                            transformOrigin:'0 0'
-                        })
-                    }
                 }else{
                     cp.style.height = ch + 'px';
                     mt.style.height = ch + 'px';
@@ -52,12 +38,6 @@ $(function(){
                     co.style.height = ch + 'px';
                     vb.style.height = ch + 'px';
                     sw.style.height = '15.6rem';
-                    for(var n=0;n<bili.length;n++){
-                        $(".contaner").eq(n).css({
-                            transform:'scaleY('+bili[n]+')',
-                            transformOrigin:'0 0'
-                        })
-                    }
                 }
             }
         });
