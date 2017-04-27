@@ -752,7 +752,7 @@ ul.range-img>li>span{
     }
     .contact-bot-mes>.contact-map,.contact-bot-mes>.contact-other{
         width:50%;
-        height:106%;
+        height:85%;
     }
     .contact-bot-mes>.contact-other{
         padding:0;
@@ -760,6 +760,7 @@ ul.range-img>li>span{
     }
     .contact-other>.er-code{
         height:6.4rem;
+        margin-top: 0.6rem;
     }
     .contact-bot-mes{
         height:19rem;
@@ -857,7 +858,7 @@ ul.range-img>li>span{
         text-align: justify;
         height:auto;
         font-size: 0.9rem;
-        line-height: 1.4rem;
+        line-height: 1.3rem;
     }
     .emergency-a-bot-mes>i{
         margin-top: 0;
@@ -870,14 +871,14 @@ ul.range-img>li>span{
     }
     .emergency-a-bot-mes>ul>li>span{
         font-size: 1rem;
-        margin-top:5px;
+        margin-top:1px;
     }
     .vehicles-bot-mes{
         padding-bottom: 0;
     }
     .emergency-a-btn{
         height:4.4rem;
-        padding-top:0.8rem;
+        padding-top:0.4rem;
     }
     .emergency-a-btn>img{
         width:300px;
@@ -1007,9 +1008,9 @@ ul.range-img>li>span{
         margin-bottom: 0;
     }
     .vehicles-bot-mes>span.vehicle-title{
-        margin-top: 8px;
-        padding-bottom: 8px;
-        font-size: 1.3rem;
+        margin-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.2rem;
     }
     .mobile-navigation{
         display: block;
@@ -1052,10 +1053,14 @@ ul.range-img>li>span{
         font-size: 1.1rem;
     }
     .contact-other>span.kbs-english{
-        font-size:0.9rem;
+        font-size:0.8rem;
+        padding-bottom: 0.2rem;
     }
     .contact-other>div{
-        font-size:1rem;
+        font-size:0.9rem;
+    }
+    .contact-other>div.kbs-address{
+        padding-bottom: 0.5rem;
     }
     .left-btn>img,.right-btn>img{
         width:25px;
@@ -1114,10 +1119,10 @@ ul.range-img>li>span{
     }
     .contact-bot-mes>.contact-map,.contact-bot-mes>.contact-other{
         width:100%;
-        height:90%;
+        height:84%;
     }
     .contact-bot-mes{
-        height:22rem;
+        height:18rem;
     }
     .contact-bot-mes>.contact-other{
         padding:0;
@@ -1134,6 +1139,7 @@ ul.range-img>li>span{
     }
     .contact-other>.er-code{
         height:8rem;
+        margin-top: 0.7rem;
     }
     .er-code-mes>span:nth-child(1){
         margin-top: 16px;
@@ -1170,7 +1176,7 @@ ul.range-img>li>span{
     }
     .emergency-a-bot-mes>span,.vehicles-bot-mes>span{
         font-size: 1rem;
-        line-height: 1.6rem;
+        line-height: 1.5rem;
     }
     .emergency-a-bot-mes>i{
         margin-top: 0;
@@ -1260,8 +1266,8 @@ ul.range-img>li>span{
         margin-top: 0;
     }
     .vehicles-bot-mes>span.vehicle-title{
-        margin-top: 9px;
-        padding-bottom: 10px;
+        margin-top: 6px;
+        padding-bottom: 5px;
         font-size: 1.3rem;
     }
     .vehicle-leftB-mes>.vehicle-one{
@@ -1289,10 +1295,11 @@ ul.range-img>li>span{
         display: block;
     }
     .contact-other>span.kbs-center{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .contact-other>span.kbs-english{
         font-size:0.9rem;
+        padding-bottom: 0.3rem;
     }
     .mobile-navigation>img{
         margin-left: 0;
