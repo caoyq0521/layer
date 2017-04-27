@@ -857,27 +857,27 @@ ul.range-img>li>span{
         text-align: justify;
         height:auto;
         font-size: 0.9rem;
-        line-height: 1.6rem;
+        line-height: 1.4rem;
     }
     .emergency-a-bot-mes>i{
-        margin-top: 0.3rem;
-        font-size: 0.9rem;
+        margin-top: 0;
+        font-size: 0.8rem;
     }
     .emergency-a-bot-mes>ul>li>img{
         display: inline;
         width:3.4rem;
-        margin-top:2rem;
+        margin-top:1rem;
     }
     .emergency-a-bot-mes>ul>li>span{
-        font-size: 1.1rem;
-        margin-top:8px;
+        font-size: 1rem;
+        margin-top:5px;
     }
     .vehicles-bot-mes{
         padding-bottom: 0;
     }
     .emergency-a-btn{
         height:4.4rem;
-        padding-top:1.4rem;
+        padding-top:0.8rem;
     }
     .emergency-a-btn>img{
         width:300px;
@@ -1169,24 +1169,25 @@ ul.range-img>li>span{
         margin-right:0;
     }
     .emergency-a-bot-mes>span,.vehicles-bot-mes>span{
-        font-size: 1.06rem;
-        line-height: 1.63rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
     .emergency-a-bot-mes>i{
-        margin-top: 0.3rem;
-        font-size: 1rem;
+        margin-top: 0;
+        font-size: 0.9rem;
     }
     .emergency-a-bot-mes>ul>li>img{
         display: inline;
         width:60px;
-        margin-top:30px;
+        margin-top:20px;
     }
     .emergency-a-bot-mes>ul>li>span{
-        font-size: 18px;
-        margin-top:8px;
+        font-size: 17px;
+        margin-top:4px;
     }
     .emergency-a-btn{
         height:76px;
+        padding-top: 1.4rem;
     }
     .emergency-a-btn>img{
         width:300px;
