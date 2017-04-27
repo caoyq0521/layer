@@ -892,7 +892,7 @@ ul.range-img>li>span{
         margin-top: -35px;
     }
     .vehicle-left-mes>span, .vehicle-right-mes>span{
-        font-size: 21px;
+        font-size: 1.2rem;
     }
     .vehicles-bot-mes>ul.range-img>li>img{
         width:100%;
@@ -904,12 +904,16 @@ ul.range-img>li>span{
         width:100%;
         height:auto;
     }
-    .vehicle-left-mes,.vehicle-right-mes{
-        width:50%;
+    .vehicle-left-mes{
+        width:45%;
+        height:auto;
+    }
+    .vehicle-right-mes{
+        width:55%;
         height:auto;
     }
     .vehicle-leftB-mes{
-        height:18.1rem;
+        height:14.1rem;
     }
     .vehicle-left-mes>i,.vehicle-right-mes>i{
         display: none;
@@ -943,22 +947,25 @@ ul.range-img>li>span{
         width:100%;
     }
     .vehicle-leftB-mes>.vehicle-one>span, .vehicle-leftB-mes>.vehicle-three>span, .vehicle-leftB-mes>.vehicle-two>span{
-        font-size: 1.4rem;
-        line-height: 118px;
+        font-size: 1.2rem;
+        line-height: 95px;
     }
     .vehicle-leftB-mes>.vehicle-two>span{
-        font-size: 1.6rem;
-        line-height: 135px;
+        font-size: 1.3rem;
+        line-height: 110px;
+    }
+    .vehicle-rightB-mes{
+        margin-top: 0;
     }
     .vehicle-rightB-mes>span:nth-child(1){
-        font-size: 26px;
+        font-size: 1.4rem;
     }
     .vehicle-rightB-mes>span:nth-child(2){
-        margin-top: 20px;
+        margin-top: 4px;
         text-indent: 2em;
         text-align: justify;
-        font-size: 1.1rem;
-        line-height: 30px;
+        font-size: 1rem;
+        line-height: 34px;
     }
     .company-bot-mes>.company-word{
         width:73%;
@@ -1193,6 +1200,14 @@ ul.range-img>li>span{
         color:#fff;
         margin-top: -35px;
     }
+    .vehicle-leftB-mes>.vehicle-one>span, .vehicle-leftB-mes>.vehicle-three>span, .vehicle-leftB-mes>.vehicle-two>span{
+        font-size: 1.3rem;
+        line-height: 99px;
+    }
+    .vehicle-leftB-mes>.vehicle-two>span{
+        font-size: 1.4rem;
+        line-height: 116px;
+    }
     .vehicles-bot-mes>ul.range-img>li>img{
         width:100%;
     }
@@ -1203,31 +1218,31 @@ ul.range-img>li>span{
         display: none;
     }
     .vehicle-leftB-mes{
-        height:17rem;
+        height:15rem;
     }
     .vehicle-leftB-mes>.vehicle-one,.vehicle-leftB-mes>.vehicle-three{
-        width:35%;
+        width:40%;
         height:40%;
     }
     .vehicle-leftB-mes>.vehicle-one>img,.vehicle-leftB-mes>.vehicle-three>img{
         width:100%;
     }
     .vehicle-leftB-mes>.vehicle-two{
-        width:40%;
+        width:43%;
         height:45%;
     }
     .vehicle-leftB-mes>.vehicle-two>img{
         width:100%;
     }
     .vehicle-rightB-mes>span:nth-child(1){
-        font-size: 26px;
+        font-size: 1.4rem;
     }
     .vehicle-rightB-mes>span:nth-child(2){
-        margin-top: 20px;
+        margin-top: 0.5rem;
         text-indent: 2em;
         text-align: justify;
-        font-size: 1.1rem;
-        line-height: 30px;
+        font-size: 1rem;
+        line-height: 27px;
     }
     .vehicle-right-mes{
         height:65%;
@@ -1252,11 +1267,11 @@ ul.range-img>li>span{
         left:5%;
     }
     .vehicle-leftB-mes>.vehicle-two{
-        left:55%;
+        left:52%;
     }
     .vehicle-leftB-mes>.vehicle-three{
-        top:55%;
-        left:30%;
+        top:49%;
+        left:29%;
     }
     .er-code>img{
         width:7rem;
@@ -1264,7 +1279,7 @@ ul.range-img>li>span{
         margin-left: 0.4rem;
     }
     .company-bot-mes>.company-word>span{
-        font-size:1.1rem;
+        font-size:1rem;
     }
     .line-word{
         display:none;
