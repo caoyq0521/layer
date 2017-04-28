@@ -9,6 +9,7 @@ $(function(){
     var co=document.getElementById("contact");
     var sw=document.getElementsByClassName("swiper-container")[0];
     var vb=document.getElementsByClassName("vehicles-bot-mes")[0];
+    var rm=document.getElementsByClassName("range-img")[0];
     if(cWidth<=750){
         cp.style.height=cHeight+'px';
         mt.style.height=cHeight+'px';
@@ -17,6 +18,7 @@ $(function(){
         co.style.height=cHeight+'px';
         vb.style.height=cHeight+'px';
         sw.style.height='15.6rem';
+        rm.style.height=cHeight+'px';
         $(window).resize(function(){
             var cw=document.documentElement.clientWidth;
             var ch=document.documentElement.clientHeight;
@@ -29,6 +31,7 @@ $(function(){
                     co.style.height=ch+'px';
                     vb.style.height=ch+'px';
                     sw.style.height=(ch-50)+'px';
+                    rm.style.height=ch*3+'px';
                 }else{
                     cp.style.height = ch + 'px';
                     mt.style.height = ch + 'px';
@@ -36,6 +39,7 @@ $(function(){
                     ea.style.height = ch + 'px';
                     co.style.height = ch + 'px';
                     vb.style.height = ch + 'px';
+                    rm.style.height=ch+'px';
                     sw.style.height = '15.6rem';
                 }
             }
